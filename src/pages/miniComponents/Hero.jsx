@@ -38,7 +38,7 @@ import {
         <h1 className="text-tubeLight-effect overflow-x-hidden text-[1.3rem] 
         sm:text-[1.75rem] md:text-[2.2rem] lg:text-[2.8rem] tracking-[15px]">
           <Typewriter
-            words={["FRONTEND DEVELOPER", "RESEARCHER", "CSE GRADUATE"]}
+            words={["FRONTEND DEVELOPER", "RESEARCHER", "TELESALES SPECIALIST"]}
             loop={50}
             cursor
             typeSpeed={70}
@@ -82,7 +82,7 @@ import {
             </Button>
           </Link>
         </div>
-        <p className="mt-8 text-xl tracking-[2px]">{user.aboutMe}</p>
+        <p className="mt-8 text-xl tracking-[2px] text-justify">{user.aboutMe}</p>
         <hr className="my-8 md::my-10 " />
       </div>
     );
