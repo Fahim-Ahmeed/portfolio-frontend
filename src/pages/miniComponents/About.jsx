@@ -48,14 +48,14 @@ const About = () => {
           />
             }
           </div>
-          <div className="flex justify-center flex-col tracking-[1px] text-xl gap-5 text-justify">
-            <p >
-            I am Fahim Ahmed, a web developer with a B.Sc. in Computer Science from Daffodil International University. Specializing in React, Express.js, and MongoDB, I create dynamic, user-friendly web applications. I value continuous learning and staying current with industry trends. Dedicated to timely work delivery, 
+          <div className="flex justify-center flex-col tracking-[1px] text-xl gap-5">
+            <p  className="text-justify">
+            I am Fahim Ahmed,a web developer with a B.Sc. in Computer Science from Daffodil International University.Specializing in React,Express.js, and MongoDB, I create dynamic,user-friendly web applications.I value continuous learning and staying current with industry trends. Dedicated to timely work delivery, 
             </p>
           </div>
         </div>
         <p className="tracking-[1px] text-xl">
-        I combine professional growth with personal fulfillment, ensuring innovation and perseverance in meeting clients' needs.
+        I combine professional growth with personal fulfillment,ensuring innovation and perseverance in meeting clients' needs.
           
         </p>
       </div>

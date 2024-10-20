@@ -7,6 +7,9 @@ import {
     Twitter,
     Youtube,
   } from "lucide-react";
+  import { FloatingWhatsApp } from 'react-floating-whatsapp'
+  import me from'../../assets/me.png'
+
   import React, { useEffect, useState } from "react";
   import { Link } from "react-router-dom";
   import { Typewriter } from "react-simple-typewriter";
@@ -60,9 +63,20 @@ import {
           <Link to={user.linkedInURL} target="_blank">
             <Linkedin className="text-sky-500 w-7 h-7" />
           </Link>
+          
           <Link to={user.twitterURL} target="_blank">
             <Twitter className="text-blue-800 w-7 h-7" />
           </Link>
+          <FloatingWhatsApp 
+          phoneNumber="+880 1754-449958" 
+          accountName="Fahim Ahmed"
+          avatar={me}
+          darkMode	={true}
+          chatMessage="Hello there! 🤝
+          How can I help?"
+          allowClickAway={true}
+          notification={true}
+          />
         </div>
         <div className="mt-4 md:mt-8 lg:mt-10  flex gap-3">
           <Link to={user.githubURL} target="_blank">
