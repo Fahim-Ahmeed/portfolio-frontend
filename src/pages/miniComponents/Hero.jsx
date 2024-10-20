@@ -72,10 +72,12 @@ import {
           accountName="Fahim Ahmed"
           avatar={me}
           darkMode	={true}
-          chatMessage="Hello there! 🤝
-          How can I help?"
+          chatMessage={`Hello there! 🤝
+How can I help?`}
           allowClickAway={true}
           notification={true}
+          notificationDelay={3}
+          notificationSound={true}
           />
         </div>
         <div className="mt-4 md:mt-8 lg:mt-10  flex gap-3">
